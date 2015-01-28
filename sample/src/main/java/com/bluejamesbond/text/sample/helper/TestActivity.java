@@ -68,6 +68,7 @@ public class TestActivity extends Activity {
         }
     }
 
+    //main method ssg 2014-01-28
     public DocumentView addDocumentView(CharSequence article, int type, boolean rtl) {
         final DocumentView documentView = new DocumentView(this, type);
         documentView.getDocumentLayoutParams().setTextColor(0xffffffff);
